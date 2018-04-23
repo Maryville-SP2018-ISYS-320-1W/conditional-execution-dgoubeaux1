@@ -7,17 +7,16 @@
 /*
  Your expected results after the input is provided:
  
- 1.
- 2.
- 3. 
- 4.
-  
+ 1. -10, 5
+ 2. 9, 8
+ 3. -4, 4
+ 4. -30, 30
+  It would not let me test to see if my results were correct. 
  */
 public class P4_IfElseMystery {
 
 	public static void main(String[] args) {
-		// Put your call to ifElseMyster2 here
-
+		ifElseMystery(3, 8);
 	}
 	
     public static void ifElseMystery(int a, int b) {
@@ -33,5 +32,5 @@ public class P4_IfElseMystery {
             System.out.println(a + " " + b);
         }
     }
-
 }
+
